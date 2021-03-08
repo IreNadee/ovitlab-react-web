@@ -1,10 +1,11 @@
 import React from "react";
 import home1 from "../img/home1.jpg";
+import { HomeS1, Description, Image } from "../styles";
 
-const AboutSection = () => {
+const HomeSection1 = () => {
   return (
-    <div>
-      <div className="description">
+    <HomeS1>
+      <Description>
         <div className="title">
           <div className="hide">
             <h2>YOUR TRUSTED DIGITAL</h2>
@@ -22,12 +23,12 @@ const AboutSection = () => {
           platform mobile app development for Android & Web apps.
         </p>
         <button>WHO WE ARE </button>
-      </div>
-      <div className="image">
+      </Description>
+      <Image>
         <img src={home1} alt="laptops" />
-      </div>
-    </div>
+      </Image>
+    </HomeS1>
   );
 };
 
-export default AboutSection;
+export default HomeSection1;

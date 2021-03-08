@@ -1,11 +1,14 @@
 import React from "react";
-import "./App.css";
-import AboutUs from "./pages/AboutUs";
+import Home from "./pages/Home";
+import GlobalStyle from "./components/GlobalStyle";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <div className="App">
-      <AboutUs />
+      <GlobalStyle />
+      <Nav />
+      <Home />
     </div>
   );
 }
