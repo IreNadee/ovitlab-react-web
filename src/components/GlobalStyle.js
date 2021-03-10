@@ -7,6 +7,16 @@ const GlobalStyle = createGlobalStyle`
     box-sizing:border-box;
 
 }
+html{
+    @media (max-width:1700px){
+        font-size:80%;
+    }
+    @media (max-width:1300px){
+        opacity:0;
+    }
+}
+
+
 body{
     background:#ffffff;
     font-family: 'Inter', sans-serif;
@@ -14,16 +24,16 @@ body{
 button{
     font-weight:bold;
     background:#1E8BD8;
-    font-size:1.1.rem;
+    font-size:1.2.rem;
     cursor:pointer;
     padding:1rem 2rem;
-    border:3px solid #196EAE;
-    color:black;
+    border:3px solid #c4e2f6;
+    color:#c4e2f6;
     transition:all 0.5s ease;
     font-family: 'Inter', sans-serif;
     &:hover{
         background-color:#196EAE;
-        color:black;
+        color:#c4e2f6;
     }
 }
 h2{
